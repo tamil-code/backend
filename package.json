@@ -2,7 +2,7 @@
   "name": "mern-chat-backend",
   "version": "1.0.0",
   "description": "this is backend for a MERN stack chat app with single user chat and group chats ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server"
