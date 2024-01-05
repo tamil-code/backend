@@ -23,7 +23,7 @@ connectDB();
 
 //cors 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: process.env.CLIENT_ENDPOINT
 }));
 
 //parse the incoming req into json
