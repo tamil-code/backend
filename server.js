@@ -6,7 +6,7 @@ const cors = require('cors')
 const cookieParser = require('cookie-parser');
 
 const connectDB = require('./configs/ConnectDB')
-const originConfigs = require('./configs/OriginConfigs')
+
 
 const authRouters = require('./routes/authRoutes')
 const chatRouters = require('./routes/chatRoutes');
